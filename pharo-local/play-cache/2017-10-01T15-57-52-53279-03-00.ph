@@ -1,0 +1,1 @@
+|pareja|pareja:= PatrolCouple new.pareja patrol: patrol sniper: sniper. pareja reset.

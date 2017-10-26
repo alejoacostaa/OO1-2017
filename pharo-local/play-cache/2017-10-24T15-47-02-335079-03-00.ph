@@ -1,0 +1,1 @@
+coletMl := SortedCollection new.coll sortBlock: [ :m1 :m2 | m1 < m2 ].coll add: 4.coll add: 2.coll add: 20.coll add: 1.SistemaMonitoreo new addAbsoluteTemperature: 80 clock:3 

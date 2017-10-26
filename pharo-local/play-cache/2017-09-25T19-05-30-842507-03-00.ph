@@ -1,0 +1,1 @@
+couple:=PatrolCouple new.couple patrol: patrol.

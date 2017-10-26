@@ -1,0 +1,1 @@
+|watcher|watcher:=CastleWatch northWatch: r1 southWatch: r2  eastWatch: r3  westWatch: r4.watcher paranoicWatch. 

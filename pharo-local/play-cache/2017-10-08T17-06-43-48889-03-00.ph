@@ -1,0 +1,1 @@
+|carr prod|carr := Carrito new.prod := Producto nombre: 'Play' precio: 499. carr agregarProducto: prod.|car|car := Carrito carrito: carritoConNombre.

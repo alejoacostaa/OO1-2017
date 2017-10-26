@@ -1,0 +1,1 @@
+Gofer newurl: 'http://smalltalkhub.com/mc/FedericoBalaguer/BotArena/main';package: 'ConfigurationOfBotArena';load.#ConfigurationOfBotArena asClass loadDevelopment

@@ -1,0 +1,1 @@
+|pareja|pareja:= PatrolCouple patrol: hola sniper: chau.pareja reset .

@@ -1,0 +1,1 @@
+afrodita rotatedSquareOfSize: 6 at: 15@15.

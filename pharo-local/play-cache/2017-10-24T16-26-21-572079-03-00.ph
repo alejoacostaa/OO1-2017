@@ -1,0 +1,1 @@
+|sis|sis := SistemaMonitoreo new.
