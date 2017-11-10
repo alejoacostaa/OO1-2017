@@ -1,1 +1,1 @@
-|sis|sis := SistemaMonitoreo new.
+|sis|sis := Date new.sis yesterday.
