@@ -24949,3 +24949,432 @@ RubSmalltalkEditor>>evaluate:andDo:
 
 	Arguments and temporary variables: 
 
+THERE_BE_DRAGONS_HERE
+
+#item was sent to nil
+
+14 November 2017 1:45:14.836783 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+UndefinedObject(Object)>>doesNotUnderstand: #item
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		aMessage: 	item
+		exception: 	MessageNotUnderstood: receiver of "item" is nil
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+PackageTreeModel>>acceptDroppingMorph:event:inMorph:
+
+	Receiver: a PackageTreeModel
+
+	Arguments and temporary variables: 
+
+		aMorph: 	a TransferMorph(158443264)
+		evt: 	[(373@427.0) dropEvent nil]
+		aTreeMorph: 	a MorphTreeMorph(33338624)
+		target: 	nil
+		items: 	nil
+
+	Receiver's instance variables: 
+
+		dependents: 	a DependentsArray(a MorphTreeMorph(33338624))
+
+		announceur: 	an Announcer
+
+		selection: 	nil
+
+		rootItems: 	nil
+
+		autoMultiSelection: 	nil
+
+		headerLabel: 	nil
+
+		multiSelection: 	nil
+
+		wrapBlockOrSelector: 	nil
+
+		isCheckList: 	nil
+
+		enabled: 	nil
+
+		model: 	a NautilusUI
+
+
+
+
+
+MorphTreeMorph>>acceptDroppingMorph:event:
+
+	Receiver: a MorphTreeMorph(33338624)
+
+	Arguments and temporary variables: 
+
+		aMorph: 	a TransferMorph(158443264)
+		evt: 	[(373@427.0) dropEvent nil]
+
+	Receiver's instance variables: 
+
+		bounds: 	(328.0@287.0) corner: (511.0@507.0)
+
+		owner: 	a PanelMorph(125918976)
+
+		submorphs: 	an Array(a ScrollBar(1011569408) a Morph(404132096) a MorphTreeTrans...etc...
+
+		fullBounds: 	(328.0@287.0) corner: (512.0@507.0)
+
+		color: 	(Color r: 0.13 g: 0.13 b: 0.13 alpha: 1.0)
+
+		extension: 	a MorphExtension (831638272) [other:  (announcer -> an Announcer) (d...etc...
+
+		borderWidth: 	0
+
+		borderColor: 	(Color r: 0.135 g: 0.135 b: 0.135 alpha: 1.0)
+
+		model: 	a PackageTreeModel
+
+		scrollBar: 	a ScrollBar(450879232)
+
+		scroller: 	a MorphTreeTransformMorph(1006216448)
+
+		getMenuSelector: 	#menu:shifted:
+
+		getMenuTitleSelector: 	nil
+
+		hasFocus: 	false
+
+		hScrollBar: 	a ScrollBar(1011569408)
+
+		columns: 	an OrderedCollection(a MorphTreeColumn)
+
+		potentialDropMorph: 	nil
+
+		rowInset: 	0
+
+		columnInset: 	0
+
+		columnResizers: 	an OrderedCollection()
+
+		withHLines: 	false
+
+		preferedPaneColor: 	nil
+
+		indentGap: 	20
+
+		expandedToggleImage: 	an ImageMorph(531737856)
+
+		notExpandedToggleImage: 	an ImageMorph(168709376)
+
+		resizerWidth: 	3
+
+		gapAfterToggle: 	5
+
+		hasToggleAtRoot: 	nil
+
+		topHeader: 	a Morph(404132096)
+
+		topHeaderBackground: 	Color transparent
+
+		unboundLastColumn: 	true
+
+		columnDropUnabled: 	nil
+
+		columnColors: 	{Color transparent. Color transparent}
+
+		rowColors: 	{(Color r: 0.13 g: 0.13 b: 0.13 alpha: 1.0). (Color r: 0.13 g: 0.13 ...etc...
+
+		nodeList: 	an OrderedCollection(Node(a MethodGroup ( Last Modified Methods )) No...etc...
+
+		iconBlock: 	nil
+
+		treeLineWidth: 	0
+
+		lineColorBlock: 	nil
+
+		treeLineDashes: 	nil
+
+		listManager: 	a MorphTreeListManager
+
+		mouseOverAllowed: 	true
+
+		maxNodeWidth: 	220.0
+
+		enabled: 	true
+
+
+
+
+
+MorphTreeMorph(Morph)>>handleDropMorph:
+
+	Receiver: a MorphTreeMorph(33338624)
+
+	Arguments and temporary variables: 
+
+THERE_BE_DRAGONS_HERE
+
+#'~>' was sent to nil
+
+14 November 2017 2:01:41.934783 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+UndefinedObject(Object)>>doesNotUnderstand: #'~>'
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		aMessage: 	~> nil
+		exception: 	MessageNotUnderstood: receiver of "~>" is nil
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+UndefinedObject>>DoIt
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+OpalCompiler>>evaluate
+
+	Receiver: an OpalCompiler
+
+	Arguments and temporary variables: 
+
+		value: 	nil
+		selectedSource: 	'f1 ~> f2.'
+		itsSelection: 	a Text for 'f1 ~> f2.'
+		itsSelectionString: 	'f1 ~> f2.'
+
+	Receiver's instance variables: 
+
+		ast: 	DoIt
+	^ f1 ~> f2
+
+		source: 	a ReadStream
+
+		context: 	nil
+
+		receiver: 	nil
+
+		compilationContext: 	a CompilationContext
+
+		compilationContextClass: 	nil
+
+
+
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(988012032)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aBlock: 	[ :result | result inspect ]
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(988012032)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+
+	Receiver: a GLMMorphicPharoScriptRenderer
+
+	Arguments and temporary variables: 
+
+		ann: 	a GLMHighlightAndEvaluate
+
+	Receiver's instance variables: 
+
+		renderer: 	a GLMMorphicRenderer
+
+		textMorph: 	a RubScrolledTextMorph(1030230528)
+
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+
+	Receiver: a RubEditingArea(988012032)
+
+	Arguments and temporary variables: 
+
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+
+	Receiver's instance variables: 
+
+		bounds: 	(0@0) corner: (1062@292)
+
+		owner: 	a TransformWithLayoutMorph(100913664)
+
+		submorphs: 	an Array(a RubPrimarySelectionMorph(952341248) a RubCursor(657325568...etc...
+
+		fullBounds: 	nil
+
+		color: 	Color transparent
+
+		extension: 	a MorphExtension (653034752) [other:  (announcer -> an Announcer) (k...etc...
+
+		model: 	a GLMRubricSmalltalkTextModel
+
+		paragraph: 	a RubShoutStylerDecorator
+
+		editor: 	a RubSmalltalkEditor
+
+		scrollPane: 	a RubTextScrollPane(577084928)
+
+		editingState: 	a RubEditingState
+
+		textStyle: 	a TextStyle Source Code Pro
+
+		textColor: 	Color white
+
+		margins: 	(6@6) corner: (6@6)
+
+		readOnly: 	false
+
+		menuAllowed: 	true
+
+		editingMode: 	a RubSmalltalkScriptingMode
+
+		cursor: 	a RubCursor(657325568)
+
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(840431360))
+
+		getMenuPolicy: 	a RubEditingArea(988012032)
+
+		mouseDownPoint: 	nil
+
+		wrapped: 	true
+
+		editorClass: 	RubSmalltalkEditor
+
+
+
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+
+	Receiver: a GLMMorphicPharoScriptRenderer
+
+	Arguments and temporary variables: 
+
+		ann: 	a GLMHighlightAndEvaluate
+
+	Receiver's instance variables: 
+
+		renderer: 	a GLMMorphicRenderer
+
+		textMorph: 	a RubScrolledTextMorph(1030230528)
+
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+
+
+
+WorldState>>runStepMethodsIn:
+
+	Receiver: a WorldState
+
+	Arguments and temporary variables: 
+
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+
+	Receiver's instance variables: 
+
+		hands: 	an Array(a HandMorph(58125568))
+
+		viewBox: 	(0@0) corner: (1278@821)
+
+		canv
