@@ -24743,3 +24743,209 @@ Processor terminateActive ] in BlockClosure>>newProcess
 
 
 
+THERE_BE_DRAGONS_HERE
+
+Instance of Date did not understand #substractDate:
+
+14 November 2017 1:04:01.879783 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+Date(Object)>>doesNotUnderstand: #substractDate:
+
+	Receiver: 1 July 2017
+
+	Arguments and temporary variables: 
+
+		aMessage: 	substractDate: 1 June 2017
+		exception: 	MessageNotUnderstood: Date>>substractDate:
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+		start: 	2017-07-01T00:00:00-03:00
+
+		duration: 	1:00:00:00
+
+
+
+
+
+DateLapse>>sizeInDays
+
+	Receiver: a DateLapse
+
+	Arguments and temporary variables: 
+
+
+
+	Receiver's instance variables: 
+
+		from: 	1 June 2017
+
+		to: 	1 July 2017
+
+
+
+
+
+UndefinedObject>>DoIt
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		d: 	a DateLapse
+		f1: 	1 June 2017
+		f2: 	1 July 2017
+		f3: 	6 August 2017
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+OpalCompiler>>evaluate
+
+	Receiver: an OpalCompiler
+
+	Arguments and temporary variables: 
+
+		value: 	nil
+		selectedSource: 	'|d f1 f2 f3|
+
+
+f1 := Date year: 2017 month: 6 day: 1.
+ 
+f2 := ...etc...
+		itsSelection: 	a Text for '|d f1 f2 f3|
+
+
+f1 := Date year: 2017 month: 6 day: 1....etc...
+		itsSelectionString: 	'|d f1 f2 f3|
+
+
+f1 := Date year: 2017 month: 6 day: 1.
+ 
+f2...etc...
+
+	Receiver's instance variables: 
+
+		ast: 	DoIt
+	| d f1 f2 f3 |
+	f1 := Date year: 2017 month: 6 day: 1.
+	f2 := Date y...etc...
+
+		source: 	a ReadStream
+
+		context: 	nil
+
+		receiver: 	nil
+
+		compilationContext: 	a CompilationContext
+
+		compilationContextClass: 	nil
+
+
+
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+THERE_BE_DRAGONS_HERE
+
+#substractDate: was sent to nil
+
+14 November 2017 1:04:35.844783 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+UndefinedObject(Object)>>doesNotUnderstand: #substractDate:
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		aMessage: 	substractDate: nil
+		exception: 	MessageNotUnderstood: receiver of "substractDate:" is nil
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+UndefinedObject>>DoIt
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+OpalCompiler>>evaluate
+
+	Receiver: an OpalCompiler
+
+	Arguments and temporary variables: 
+
+		value: 	nil
+		selectedSource: 	'f3 substractDate: f1.'
+		itsSelection: 	a Text for 'f3 substractDate: f1.'
+		itsSelectionString: 	'f3 substractDate: f1.'
+
+	Receiver's instance variables: 
+
+		ast: 	DoIt
+	^ f3 substractDate: f1
+
+		source: 	a ReadStream
+
+		context: 	nil
+
+		receiver: 	nil
+
+		compilationContext: 	a CompilationContext
+
+		compilationContextClass: 	nil
+
+
+
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
