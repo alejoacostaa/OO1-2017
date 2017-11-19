@@ -1,0 +1,1 @@
+|i|i := 0.[ i < 5 ]whileTrue: [Transcript show: 'Que lindo es Smalltalk'.i := i + 1.]
