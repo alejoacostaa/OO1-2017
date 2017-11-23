@@ -1,1 +1,1 @@
-|t1 t2 p1 p2 p3 p4 p5 p6 testBool|"testBool := False.testBool implies: true."p1 := Point x: 10 y: 20.p2 := Point x: 10 y:13.p3 := Point x: 20 y: 40.t1 := DelaunayElement withPoints: p1 p2: p2  p3: p3.t2 := DelaunayElement withPoints: p1 p2: p2  p3: p3.t1 sameAs: t2.t2 := DelaunayElement withPoints: p1 p2: p2  p3: p3.t1 sameAs: t2. 
+ 
