@@ -26650,3 +26650,149 @@ Processor terminateActive ] in BlockClosure>>newProcess
 
 
 
+THERE_BE_DRAGONS_HERE
+
+Instance of SmallInteger did not understand #,
+
+24 November 2017 12:02:13.992999 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+SmallInteger(Object)>>doesNotUnderstand: #,
+
+	Receiver: 54
+
+	Arguments and temporary variables: 
+
+		aMessage: 	, 53
+		exception: 	MessageNotUnderstood: SmallInteger>>,
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+54
+
+
+
+UndefinedObject>>DoIt
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		t: 	a SortedCollection()
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+OpalCompiler>>evaluate
+
+	Receiver: an OpalCompiler
+
+	Arguments and temporary variables: 
+
+		value: 	nil
+		selectedSource: 	'|t|
+
+t := SortedCollection new.
+
+t add: (54,53,78,1,5,9,32).'
+		itsSelection: 	a Text for '|t|
+
+t := SortedCollection new.
+
+t add: (54,53,78,1,5...etc...
+		itsSelectionString: 	'|t|
+
+t := SortedCollection new.
+
+t add: (54,53,78,1,5,9,32...etc...
+
+	Receiver's instance variables: 
+
+		ast: 	DoIt
+	| t |
+	t := SortedCollection new.
+	^ t add: 54 , 53 , 78 , 1 , 5 , 9...etc...
+
+		source: 	a ReadStream
+
+		context: 	nil
+
+		receiver: 	nil
+
+		compilationContext: 	a CompilationContext
+
+		compilationContextClass: 	nil
+
+
+
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(842760448)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+THERE_BE_DRAGONS_HERE
+
+Instance of BlockClosure did not understand #do:
+
+24 November 2017 12:11:30.065999 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+BlockClosure(Object)>>doesNotUnderstand: #do:
+
+	Receiver: [ 54 , 78 , 1 , 90 , 21 , 67 ]
+
+	Arguments and temporary variables: 
+

@@ -1,0 +1,67 @@
+[31mInstance of SmallInteger did not understand #,
+[0mSmallInteger(Object)>>doesNotUnderstand: #,
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>popupPrint
+MorphicAlarm(MessageSend)>>value
+MorphicAlarm>>value:
+WorldState>>triggerAlarmsBefore:
+WorldState>>runLocalStepMethodsIn:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess in Block: [ [ WorldMorph doOneCycle....
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess in Block: [ self value....
+[0m[31mInstance of BlockClosure did not understand #do:
+[0mBlockClosure(Object)>>doesNotUnderstand: #do:
+SortedCollection>>addAll:
+SortedCollection class(Collection class)>>withAll:
+[ :result | 
+"withSmalltalkSearch;
+		showOnly: 50;
+		helpMessage: 'Quick selection field. Given your INPUT, it executes: self select: [:each | INPUT ]'."
+result isNil
+	ifTrue: [ nil ]
+	ifFalse: [ result size = 1
+			ifTrue: [ result anyOne ]
+			ifFalse: [ self species withAll: result ] ] ] in SortedCollection(SequenceableCollection)>>gtInspectorItemsIn: in Block: [ :result | ...
+BlockClosure>>glamourValueWithArgs:
+BlockClosure(ProtoObject)>>glamourValue:
+GLMFastTablePresentation(GLMPresentation)>>strongSelection:
+[ :ann | 
+tableModel glamourPresentation
+	strongSelection: ann strongSelectionValue ] in GLMMorphicFastTableRenderer(GLMMorphicFTRenderer)>>initializeAnnouncementForDataSource in Block: [ :ann | ...
+BlockClosure>>cull:
+BlockClosure>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in AnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+[ Processor terminateActive ] in [ :ex | 
+| copy onDoCtx process handler bottom thisCtx |
+onDoCtx := thisContext.
+thisCtx := onDoCtx home.
+
+"find the context on stack for which this method's is sender"
+[ onDoCtx sender == thisCtx ]
+	whileFalse: [ onDoCtx := onDoCtx sender.
+		onDoCtx
+			ifNil: [ "Can't find our home context. seems like we're already forked
+				and handling another exception in new thread. In this case, just pass it through handler." ^ handlerAction cull: ex ] ].
+bottom := [ Processor terminateActive ] asContext.
+onDoCtx privSender: bottom.
+handler := [ handlerAction cull: ex ] asContext.
+handler privSender: thisContext sender.
+(Process forContext: handler priority: Processor activePriority)
+	resume.
+
+"cut the stack of current process"
+thisContext privSender: thisCtx.
+nil ] in BlockClosure>>on:fork: in Block: [ Processor terminateActive ]
+[0m

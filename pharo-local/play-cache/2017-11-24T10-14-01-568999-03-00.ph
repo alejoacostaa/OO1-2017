@@ -1,1 +1,1 @@
-[ 5 ] value .[: n|  n*n  ] value: 3.
+|t|t := SortedCollection new.t add: [ 54,78,1,90,21,67 ].t sort: [ :n1 :n2 | n1 < n2 ].t.

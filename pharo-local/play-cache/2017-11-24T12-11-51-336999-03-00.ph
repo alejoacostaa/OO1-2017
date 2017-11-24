@@ -1,0 +1,1 @@
+|t|t := SortedCollection new.t add: 1.t add: 98.t add: 4.t sort:[:n1 :n2 | n1 < n2].t.
