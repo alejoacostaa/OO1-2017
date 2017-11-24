@@ -1,0 +1,1 @@
+l1 := LlamadaLocal withData: DateAndTime new distance: 5 duration: 10.l2 := LlamadaInternacional withData: DateAndTime new distance: 6  duration: 9.t := Telefonica new.abonado := Abonado new.abonado agregarLlamada: l1.abonado agregarLlamada: l2.t agregarAbonado: abonado.t montoCadaAbonado.
