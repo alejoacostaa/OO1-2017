@@ -1,0 +1,1 @@
+|cliente facturador l1 l2 l3 col|cliente := Cliente withNombre: 'Alejo'.facturador := Facturador new.l1 := LibroDeTexto withPrecio: 100.l2 := LibroDeTexto withPrecio: 200.l3 := LibroDeTexto withPrecio: 300.col := OrderedCollection new.col add: l1.col add: l2.col add: l3.facturador facturar: col para: cliente.facturador totalDescontado.
