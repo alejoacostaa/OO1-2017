@@ -1,0 +1,1 @@
+|x|x:= Set new.x add: 6.

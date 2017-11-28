@@ -37007,3 +37007,1184 @@ Processor terminateActive ] in BlockClosure>>newProcess
 
 
 
+THERE_BE_DRAGONS_HERE
+
+Instance of LibroDeTexto did not understand #adaptToNumber:andSend:
+
+28 November 2017 11:24:51.750153 am
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+LibroDeTexto(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+
+	Receiver: a LibroDeTexto
+
+	Arguments and temporary variables: 
+
+		aMessage: 	adaptToNumber: 0 andSend: #+
+		exception: 	MessageNotUnderstood: LibroDeTexto>>adaptToNumber:andSend:
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+		titulo: 	nil
+
+		autor: 	nil
+
+		precio: 	100
+
+		cantPaginas: 	nil
+
+
+
+
+
+LibroDeTexto(Object)>>adaptToInteger:andSend:
+
+	Receiver: a LibroDeTexto
+
+	Arguments and temporary variables: 
+
+		rcvr: 	0
+		selector: 	#+
+
+	Receiver's instance variables: 
+
+		titulo: 	nil
+
+		autor: 	nil
+
+		precio: 	100
+
+		cantPaginas: 	nil
+
+
+
+
+
+SmallInteger(Integer)>>+
+
+	Receiver: 0
+
+	Arguments and temporary variables: 
+
+		aNumber: 	a LibroDeTexto
+
+	Receiver's instance variables: 
+
+0
+
+
+
+SmallInteger>>+
+
+	Receiver: 0
+
+	Arguments and temporary variables: 
+
+		aNumber: 	a LibroDeTexto
+
+	Receiver's instance variables: 
+
+0
+
+
+
+[ :element | rcvr perform: selector with: element ] in OrderedCollection(Collection)>>adaptToNumber:andSend:
+
+	Receiver: an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Arguments and temporary variables: 
+
+		rcvr: 	0
+		selector: 	#+
+		element: 	a LibroDeTexto
+
+	Receiver's instance variables: 
+
+		array: 	an Array(a LibroDeTexto a LibroDeTexto a LibroDeTexto nil nil nil nil ni...etc...
+
+		firstIndex: 	1
+
+		lastIndex: 	3
+
+
+
+
+
+OrderedCollection>>collect:
+
+	Receiver: an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Arguments and temporary variables: 
+
+THERE_BE_DRAGONS_HERE
+
+Instance of LibroDeTexto did not understand #adaptToNumber:andSend:
+
+28 November 2017 11:25:56.587153 am
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+LibroDeTexto(Object)>>doesNotUnderstand: #adaptToNumber:andSend:
+
+	Receiver: a LibroDeTexto
+
+	Arguments and temporary variables: 
+
+		aMessage: 	adaptToNumber: 0 andSend: #+
+		exception: 	MessageNotUnderstood: LibroDeTexto>>adaptToNumber:andSend:
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+		titulo: 	nil
+
+		autor: 	nil
+
+		precio: 	100
+
+		cantPaginas: 	nil
+
+
+
+
+
+LibroDeTexto(Object)>>adaptToInteger:andSend:
+
+	Receiver: a LibroDeTexto
+
+	Arguments and temporary variables: 
+
+		rcvr: 	0
+		selector: 	#+
+
+	Receiver's instance variables: 
+
+		titulo: 	nil
+
+		autor: 	nil
+
+		precio: 	100
+
+		cantPaginas: 	nil
+
+
+
+
+
+SmallInteger(Integer)>>+
+
+	Receiver: 0
+
+	Arguments and temporary variables: 
+
+		aNumber: 	a LibroDeTexto
+
+	Receiver's instance variables: 
+
+0
+
+
+
+SmallInteger>>+
+
+	Receiver: 0
+
+	Arguments and temporary variables: 
+
+		aNumber: 	a LibroDeTexto
+
+	Receiver's instance variables: 
+
+0
+
+
+
+[ :element | rcvr perform: selector with: element ] in OrderedCollection(Collection)>>adaptToNumber:andSend:
+
+	Receiver: an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Arguments and temporary variables: 
+
+		rcvr: 	0
+		selector: 	#+
+		element: 	a LibroDeTexto
+
+	Receiver's instance variables: 
+
+		array: 	an Array(a LibroDeTexto a LibroDeTexto a LibroDeTexto nil nil nil nil ni...etc...
+
+		firstIndex: 	1
+
+		lastIndex: 	3
+
+
+
+
+
+OrderedCollection>>collect:
+
+	Receiver: an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Arguments and temporary variables: 
+
+		aBlock: 	[ :element | rcvr perform: selector with: element ]
+		newCollection: 	an OrderedCollection()
+		index: 	1
+
+	Receiver's instance variables: 
+
+		array: 	an Array(a LibroDeTexto a LibroDeTexto a LibroDeTexto nil nil nil nil ni...etc...
+
+		firstIndex: 	1
+
+		lastIndex: 	3
+
+
+
+
+
+OrderedCollection(Collection)>>adaptToNumber:andSend:
+
+	Receiver: an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Arguments and temporary variables: 
+
+		rcvr: 	0
+		selector: 	#+
+
+	Receiver's instance variables: 
+
+		array: 	an Array(a LibroDeTexto a LibroDeTexto a LibroDeTexto nil nil nil nil ni...etc...
+
+		firstIndex: 	1
+
+		lastIndex: 	3
+
+
+
+
+
+OrderedCollection(Object)>>adaptToInteger:andSend:
+
+	Receiver: an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Arguments and temporary variables: 
+
+		rcvr: 	0
+		selector: 	#+
+
+	Receiver's instance variables: 
+
+		array: 	an Array(a LibroDeTexto a LibroDeTexto a LibroDeTexto nil nil nil nil ni...etc...
+
+		firstIndex: 	1
+
+		lastIndex: 	3
+
+
+
+
+
+SmallInteger(Integer)>>+
+
+	Receiver: 0
+
+	Arguments and temporary variables: 
+
+		aNumber: 	an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Receiver's instance variables: 
+
+0
+
+
+
+SmallInteger>>+
+
+	Receiver: 0
+
+	Arguments and temporary variables: 
+
+		aNumber: 	an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Receiver's instance variables: 
+
+0
+
+
+
+Facturador>>facturar:para:
+
+	Receiver: a Facturador
+
+	Arguments and temporary variables: 
+
+		unosLibros: 	an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+		unCliente: 	a Cliente
+		monto: 	480.0
+
+	Receiver's instance variables: 
+
+		totalDescontado: 	0
+
+
+
+
+
+UndefinedObject>>DoIt
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		cliente: 	a Cliente
+		facturador: 	a Facturador
+		l1: 	a LibroDeTexto
+		l2: 	a LibroDeTexto
+		l3: 	a LibroDeTexto
+		col: 	an OrderedCollection(a LibroDeTexto a LibroDeTexto a LibroDeTexto)
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+OpalCompiler>>evaluate
+
+	Receiver: an OpalCompiler
+
+	Arguments and temporary variables: 
+
+		value: 	nil
+		selectedSource: 	'|cliente facturador l1 l2 l3 col|
+
+cliente := Cliente withNomb...etc...
+		itsSelection: 	a Text for '|cliente facturador l1 l2 l3 col|
+
+cliente := Cliente...etc...
+		itsSelectionString: 	'|cliente facturador l1 l2 l3 col|
+
+cliente := Cliente with...etc...
+
+	Receiver's instance variables: 
+
+		ast: 	DoIt
+	| cliente facturador l1 l2 l3 col |
+	cliente := Cliente withNombre: ...etc...
+
+		source: 	a ReadStream
+
+		context: 	nil
+
+		receiver: 	nil
+
+		compilationContext: 	a CompilationContext
+
+		compilationContextClass: 	nil
+
+
+
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(712853760)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aBlock: 	[ :result |  ]
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(712853760)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+
+	Receiver: a GLMMorphicPharoScriptRenderer
+
+	Arguments and temporary variables: 
+
+		ann: 	a GLMHighlightAndEvaluate
+
+	Receiver's instance variables: 
+
+		renderer: 	a GLMMorphicRenderer
+
+		textMorph: 	a RubScrolledTextMorph(91574528)
+
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+
+	Receiver: a RubEditingArea(712853760)
+
+	Arguments and temporary variables: 
+
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+
+	Receiver's instance variables: 
+
+		bounds: 	(0@0) corner: (1049@430)
+
+		owner: 	a TransformWithLayoutMorph(124561152)
+
+		submorphs: 	an Array(a RubPrimarySelectionMorph(713215232) a RubCursor(543762688...etc...
+
+		fullBounds: 	nil
+
+		color: 	Color transparent
+
+		extension: 	a MorphExtension (611742976) [other:  (announcer -> an Announcer) (k...etc...
+
+		model: 	a GLMRubricSmalltalkTextModel
+
+		paragraph: 	a RubShoutStylerDecorator
+
+		editor: 	a RubSmalltalkEditor
+
+		scrollPane: 	a RubTextScrollPane(778080000)
+
+		editingState: 	a RubEditingState
+
+		textStyle: 	a TextStyle Source Code Pro
+
+		textColor: 	Color white
+
+		margins: 	(6@6) corner: (6@6)
+
+		readOnly: 	false
+
+		menuAllowed: 	true
+
+		editingMode: 	a RubSmalltalkScriptingMode
+
+		cursor: 	a RubCursor(543762688)
+
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(345375488))
+
+		getMenuPolicy: 	a RubEditingArea(712853760)
+
+		mouseDownPoint: 	nil
+
+		wrapped: 	true
+
+		editorClass: 	RubSmalltalkEditor
+
+
+
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+
+	Receiver: a GLMMorphicPharoScriptRenderer
+
+	Arguments and temporary variables: 
+
+		ann: 	a GLMHighlightAndEvaluate
+
+	Receiver's instance variables: 
+
+		renderer: 	a GLMMorphicRenderer
+
+		textMorph: 	a RubScrolledTextMorph(91574528)
+
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+
+
+
+WorldState>>runStepMethodsIn:
+
+	Receiver: a WorldState
+
+	Arguments and temporary variables: 
+
+THERE_BE_DRAGONS_HERE
+
+Instance of Set did not understand #with:
+
+28 November 2017 12:36:01.224153 pm
+
+
+
+VM: Win32 - IX86 - 10.0 - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+
+Image: Pharo6.0 [Latest update: #60510]
+
+
+
+Set(Object)>>doesNotUnderstand: #with:
+
+	Receiver: a Set()
+
+	Arguments and temporary variables: 
+
+		aMessage: 	with: 5
+		exception: 	MessageNotUnderstood: Set>>with:
+		resumeValue: 	nil
+
+	Receiver's instance variables: 
+
+		tally: 	0
+
+		array: 	#(nil nil nil nil nil)
+
+
+
+
+
+UndefinedObject>>DoIt
+
+	Receiver: nil
+
+	Arguments and temporary variables: 
+
+		x: 	a Set()
+
+	Receiver's instance variables: 
+
+nil
+
+
+
+OpalCompiler>>evaluate
+
+	Receiver: an OpalCompiler
+
+	Arguments and temporary variables: 
+
+		value: 	nil
+		selectedSource: 	'|x|
+
+x:= Set new.
+
+x with: 5.'
+		itsSelection: 	a Text for '|x|
+
+x:= Set new.
+
+x with: 5.'
+		itsSelectionString: 	'|x|
+
+x:= Set new.
+
+x with: 5.'
+
+	Receiver's instance variables: 
+
+		ast: 	DoIt
+	| x |
+	x := Set new.
+	^ x with: 5
+
+		source: 	a ReadStream
+
+		context: 	nil
+
+		receiver: 	nil
+
+		compilationContext: 	a CompilationContext
+
+		compilationContextClass: 	nil
+
+
+
+
+
+RubSmalltalkEditor>>evaluate:andDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aStream: 	a ReadStream
+		aBlock: 	[ :result | aBlock value: result ]
+		result: 	nil
+		rcvr: 	nil
+		ctxt: 	nil
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(787435520)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+
+	Receiver: a RubSmalltalkEditor
+
+	Arguments and temporary variables: 
+
+		aBlock: 	[ :result | result inspect ]
+
+	Receiver's instance variables: 
+
+		defaultKeymappingIndex: 	an IdentityDictionary(#command->#(#noop: #cursorHome: #...etc...
+
+		textArea: 	a RubEditingArea(787435520)
+
+		selectorChooser: 	nil
+
+		notificationStrategy: 	a GLMPopperNotificationStrategy
+
+
+
+
+
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+
+	Receiver: a GLMMorphicPharoScriptRenderer
+
+	Arguments and temporary variables: 
+
+		ann: 	a GLMHighlightAndEvaluate
+
+	Receiver's instance variables: 
+
+		renderer: 	a GLMMorphicRenderer
+
+		textMorph: 	a RubScrolledTextMorph(813452032)
+
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+
+
+
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+
+	Receiver: a RubEditingArea(787435520)
+
+	Arguments and temporary variables: 
+
+		editBlock: 	[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+text...etc...
+
+	Receiver's instance variables: 
+
+		bounds: 	(0@0) corner: (1062@107)
+
+		owner: 	a TransformWithLayoutMorph(562955008)
+
+		submorphs: 	an Array(a RubPrimarySelectionMorph(432249600) a RubCursor(631511040...etc...
+
+		fullBounds: 	nil
+
+		color: 	Color transparent
+
+		extension: 	a MorphExtension (944012032) [other:  (announcer -> an Announcer) (k...etc...
+
+		model: 	a GLMRubricSmalltalkTextModel
+
+		paragraph: 	a RubShoutStylerDecorator
+
+		editor: 	a RubSmalltalkEditor
+
+		scrollPane: 	a RubTextScrollPane(847759360)
+
+		editingState: 	a RubEditingState
+
+		textStyle: 	a TextStyle Source Code Pro
+
+		textColor: 	Color white
+
+		margins: 	(6@6) corner: (6@6)
+
+		readOnly: 	false
+
+		menuAllowed: 	true
+
+		editingMode: 	a RubSmalltalkScriptingMode
+
+		cursor: 	a RubCursor(631511040)
+
+		segments: 	an OrderedCollection(a RubHighlightSegmentMorph(403181568))
+
+		getMenuPolicy: 	a RubEditingArea(787435520)
+
+		mouseDownPoint: 	nil
+
+		wrapped: 	true
+
+		editorClass: 	RubSmalltalkEditor
+
+
+
+
+
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+
+	Receiver: a GLMMorphicPharoScriptRenderer
+
+	Arguments and temporary variables: 
+
+		ann: 	a GLMHighlightAndEvaluate
+
+	Receiver's instance variables: 
+
+		renderer: 	a GLMMorphicRenderer
+
+		textMorph: 	a RubScrolledTextMorph(813452032)
+
+		textModel: 	a GLMRubricSmalltalkTextModel
+
+
+
+
+
+WorldState>>runStepMethodsIn:
+
+	Receiver: a WorldState
+
+	Arguments and temporary variables: 
+
+		aWorld: 	a WorldMorph(562956288) [world]
+		queue: 	WaitfreeQueue with 0 items
+		nextInQueue: 	[ textMorph textArea
+	handleEdit: [ textMorph textArea editor high...etc...
+
+	Receiver's instance variables: 
+
+		hands: 	an Array(a HandMorph(58125568))
+
+		viewBox: 	(0@0) corner: (1278@821)
+
+		canvas: 	a FormCanvas on: DisplayScreen(1278x821x32)
+
+		damageRecorder: 	a DamageRecorder
+
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(764313856))(a SearchMorp...etc...
+
+		lastStepTime: 	5058396
+
+		lastStepMessage: 	nil
+
+		lastCycleTime: 	5058418
+
+		alarms: 	a Heap()
+
+		lastAlarmTime: 	5058396
+
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+		activeHand: 	a HandMorph(58125568)
+
+
+
+
+
+WorldMorph>>runStepMethods
+
+	Receiver: a WorldMorph(562956288) [world]
+
+	Arguments and temporary variables: 
+
+
+
+	Receiver's instance variables: 
+
+		bounds: 	(0@0) corner: (1278@821)
+
+		owner: 	nil
+
+		submorphs: 	an Array(a GLMSystemWindow(84355072) a GLMSystemWindow(811092736) a ...etc...
+
+		fullBounds: 	(0@0) corner: (1278@821)
+
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+
+		extension: 	a MorphExtension (114091520) [other:  (dragEnabled -> true) (dropEna...etc...
+
+		borderWidth: 	0
+
+		borderColor: 	(Color r: 0.705 g: 0.705 b: 0.705 alpha: 1.0)
+
+		backgroundMorph: 	nil
+
+		worldState: 	a WorldState
+
+		griddingOn: 	nil
+
+		osWindow: 	nil
+
+		session: 	nil
+
+
+
+
+
+WorldState>>doOneCycleNowFor:
+
+	Receiver: a WorldState
+
+	Arguments and temporary variables: 
+
+		aWorld: 	a WorldMorph(562956288) [world]
+
+	Receiver's instance variables: 
+
+		hands: 	an Array(a HandMorph(58125568))
+
+		viewBox: 	(0@0) corner: (1278@821)
+
+		canvas: 	a FormCanvas on: DisplayScreen(1278x821x32)
+
+		damageRecorder: 	a DamageRecorder
+
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(764313856))(a SearchMorp...etc...
+
+		lastStepTime: 	5058396
+
+		lastStepMessage: 	nil
+
+		lastCycleTime: 	5058418
+
+		alarms: 	a Heap()
+
+		lastAlarmTime: 	5058396
+
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+		activeHand: 	a HandMorph(58125568)
+
+
+
+
+
+WorldState>>doOneCycleFor:
+
+	Receiver: a WorldState
+
+	Arguments and temporary variables: 
+
+		aWorld: 	a WorldMorph(562956288) [world]
+
+	Receiver's instance variables: 
+
+		hands: 	an Array(a HandMorph(58125568))
+
+		viewBox: 	(0@0) corner: (1278@821)
+
+		canvas: 	a FormCanvas on: DisplayScreen(1278x821x32)
+
+		damageRecorder: 	a DamageRecorder
+
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(764313856))(a SearchMorp...etc...
+
+		lastStepTime: 	5058396
+
+		lastStepMessage: 	nil
+
+		lastCycleTime: 	5058418
+
+		alarms: 	a Heap()
+
+		lastAlarmTime: 	5058396
+
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+		activeHand: 	a HandMorph(58125568)
+
+
+
+
+
+WorldState>>doOneSubCycleFor:
+
+	Receiver: a WorldState
+
+	Arguments and temporary variables: 
+
+		aWorld: 	a WorldMorph(562956288) [world]
+		currentHand: 	a HandMorph(58125568)
+
+	Receiver's instance variables: 
+
+		hands: 	an Array(a HandMorph(58125568))
+
+		viewBox: 	(0@0) corner: (1278@821)
+
+		canvas: 	a FormCanvas on: DisplayScreen(1278x821x32)
+
+		damageRecorder: 	a DamageRecorder
+
+		stepList: 	a Heap(StepMessage(#stepAt: -> a SearchMorph(764313856))(a SearchMorp...etc...
+
+		lastStepTime: 	5058396
+
+		lastStepMessage: 	nil
+
+		lastCycleTime: 	5058418
+
+		alarms: 	a Heap()
+
+		lastAlarmTime: 	5058396
+
+		menuBuilder: 	a PragmaMenuBuilder ( nil ) 
+
+		activeHand: 	a HandMorph(58125568)
+
+
+
+
+
+WorldMorph>>doOneSubCycle
+
+	Receiver: a WorldMorph(562956288) [world]
+
+	Arguments and temporary variables: 
+
+
+
+	Receiver's instance variables: 
+
+		bounds: 	(0@0) corner: (1278@821)
+
+		owner: 	nil
+
+		submorphs: 	an Array(a GLMSystemWindow(84355072) a GLMSystemWindow(811092736) a ...etc...
+
+		fullBounds: 	(0@0) corner: (1278@821)
+
+		color: 	(Color r: 0.295 g: 0.295 b: 0.295 alpha: 1.0)
+
+		extension: 	a MorphExtension (114091520) [other:  (dragEnabled -> true) (dropEna...etc...
+
+		borderWidth: 	0
+
+		borderColor: 	(Color r: 0.705 g: 0.705 b: 0.705 alpha: 1.0)
+
+		backgroundMorph: 	nil
+
+		worldState: 	a WorldState
+
+		griddingOn: 	nil
+
+		osWindow: 	nil
+
+		session: 	nil
+
+
+
+
+
+MenuMorph>>invokeModalAt:in:allowKeyboard:
+
+	Receiver: a MenuMorph(19163136)
+
+	Arguments and temporary variables: 
+
+		aPoint: 	(153@406.0)
+		aWorld: 	a WorldMorph(562956288) [world]
+		aBoolean: 	true
+		w: 	a WorldMorph(562956288) [world]
+		originalFocusHolder: 	a RubEditingArea(787435520)
+
+	Receiver's instance variables: 
+
+		bounds: 	(151.0@398.0) corner: (358.0@632.0)
+
+		owner: 	nil
+
+		submorphs: 	an Array(a ToggleMenuItemMorph(770924544)'Do it and go' a ToggleMenu...etc...
+
+		fullBounds: 	(151.0@398.0) corner: (358.0@632.0)
+
+		color: 	Color veryDarkGray
+
+		extension: 	a MorphExtension (549176064) [other:  (basicColor -> Color veryDarkG...etc...
+
+		borderWidth: 	1
+
+		borderColor: 	(Color r: 0.135 g: 0.135 b: 0.135 alpha: 1.0)
+
+		defaultTarget: 	nil
+
+		selectedItem: 	a ToggleMenuItemMorph(77314816)'Inspect it'
+
+		stayUp: 	false
+
+		popUpOwner: 	nil
+
+		activeSubMenu: 	nil
+
+		titleMorph: 	nil
+
+
+
+
+
+MenuMorph>>invokeModal:
+
+	Receiver: a MenuMorph(19163136)
+
+	Arguments and temporary variables: 
+
+		allowKeyboardControl: 	true
+
+	Receiver's instance variables: 
+
+		bounds: 	(151.0@398.0) corner: (358.0@632.0)
+
+		owner: 	nil
+
+		submorphs: 	an Array(a ToggleMenuItemMorph(770924544)'Do it and go' a ToggleMenu...etc...
+
+		fullBounds: 	(151.0@398.0) corner: (358.0@632.0)
+
+		color: 	Color veryDarkGray
+
+		extension: 	a MorphExtension (549176064) [other:  (basicColor -> Color veryDarkG...etc...
+
+		borderWidth: 	1
+
+		borderColor: 	(Color r: 0.135 g: 0.135 b: 0.135 alpha: 1.0)
+
+		defaultTarget: 	nil
+
+		selectedItem: 	a ToggleMenuItemMorph(77314816)'Inspect it'
+
+		stayUp: 	false
+
+		popUpOwner: 	nil
+
+		activeSubMenu: 	nil
+
+		titleMorph: 	nil
+
+
+
+
+
+MenuMorph>>invokeModal
+
+	Receiver: a MenuMorph(19163136)
+
+	Arguments and temporary variables: 
+
+
+
+	Receiver's instance variables: 
+
+		bounds: 	(151.0@398.0) corner: (358.0@632.0)
+
+		owner: 	nil
+
+		submorphs: 	an Array(a ToggleMenuItemMorph(770924544)'Do it and go' a ToggleMenu...etc...
+
+		fullBounds: 	(151.0@398.0) corner: (358.0@632.0)
+
+		color: 	Color veryDarkGray
+
+		extension: 	a MorphExtension (549176064) [other:  (basicColor -> Color veryDarkG...etc...
+
+		borderWidth: 	1
+
+		borderColor: 	(Color r: 0.135 g: 0.135 b: 0.135 alpha: 1.0)
+
+		defaultTarget: 	nil
+
+		selectedItem: 	a ToggleMenuItemMorph(77314816)'Inspect it'
+
+		stayUp: 	false
+
+		popUpOwner: 	nil
+
+		activeSubMenu: 	nil
+
+		titleMorph: 	nil
+
+
+
+
+
+RubEditingArea(RubAbstractTextArea)>>yellowButtonActivity:
+
+	Receiver: a RubEditingArea(787435520)
+
+	Arguments and temporary variables: 
+
