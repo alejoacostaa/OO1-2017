@@ -1,0 +1,61 @@
+[31mWarning
+[0m[ :other | 
+other name = current name
+	ifTrue: [ DuplicatedSlotName new
+			oldSlot: current;
+			newSlot: other;
+			host: host;
+			signal ] ] in FixedLayout(PointerLayout)>>checkSlotNames in Block: [ :other | ...
+OrderedCollection>>do:
+FixedLayout(PointerLayout)>>checkSlotNames
+FixedLayout(PointerLayout)>>checkSanity
+ClassModificationPropagation(AbstractClassModification)>>checkSanity
+ClassModificationPropagation(AbstractClassModification)>>computeChange
+ClassModificationPropagation(AbstractClassModification)>>layout:
+ClassModificationPropagation(AbstractClassModification)>>classLayout:
+ClassModificationPropagation>>propagate:to:
+ClassModificationPropagation class>>propagate:to:
+[ :subclass | 
+propagations
+	add: (ClassModificationPropagation propagate: self to: subclass) ] in ClassModification(AbstractClassModification)>>propagate in Block: [ :subclass | ...
+Array(SequenceableCollection)>>do:
+Linea class(Class)>>subclassesDo:
+ClassModification(AbstractClassModification)>>propagate
+ClassModification>>computeChange
+ClassModification(AbstractClassModification)>>layout:
+ClassModification>>layoutClass:slots:
+ClassModification class>>modify:extend:withLayoutType:slots:sharedVariables:sharedPools:traitComposition:
+SlotClassBuilder>>build
+PharoClassInstaller class(AbstractClassInstaller class)>>make:
+Object class(Class)>>private_subclass:instanceVariableNames:classVariableNames:poolDictionaries:category:
+[ self
+	private_subclass: aName
+	instanceVariableNames: someInstanceVariableNames
+	classVariableNames: someClassVariableNames
+	poolDictionaries: someSharedPoolNames
+	category: aCategory ] in Object class(Class)>>subclass:uses:instanceVariableNames:classVariableNames:poolDictionaries:package: in Block: [ self...
+[ :old | 
+| copyOfOld newClass |
+copyOfOld := old copy.
+
+"Modify the class and set the new trait composition"
+newClass := aBlock value.
+newClass setTraitComposition: aTraitComposition asTraitComposition.
+
+"Announce that the definition changed when there is a new trait composution. 
+			Note: It may be a re-announce if there was other change in the class definition, 
+			e.g. an instace variable added."
+(newClass traitComposition
+	syntacticallyEquals: copyOfOld traitComposition)
+	ifFalse: [ SystemAnnouncer uniqueInstance
+			classDefinitionChangedFrom: copyOfOld to: newClass;
+			classModificationAppliedTo: newClass ].
+newClass ] in Object class(Class)>>subclass:uses:with: in Block: [ :old | ...
+BlockClosure>>cull:
+[ :v | ^ aPresentBlock cull: v ] in SystemDictionary(Dictionary)>>at:ifPresent:ifAbsent: in Block: [ :v | ^ aPresentBlock cull: v ]
+BlockClosure>>cull:
+SystemDictionary(Dictionary)>>at:ifPresent:
+SystemDictionary(Dictionary)>>at:ifPresent:ifAbsent:
+Object class(Class)>>subclass:uses:with:
+Object class(Class)>>subclass:uses:instanceVariableNames:classVariableNames:poolDictionaries:package:
+[0m
