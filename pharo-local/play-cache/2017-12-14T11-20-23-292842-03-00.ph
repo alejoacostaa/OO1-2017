@@ -1,0 +1,1 @@
+|col|col := OrderedCollection new.col add: 2.col add: 100.col add: 56.col add: 103.col asSortedCollection: [ :n1 :n2 | n1  < n2 ].
