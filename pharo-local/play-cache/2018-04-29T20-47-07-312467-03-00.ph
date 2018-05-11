@@ -1,0 +1,1 @@
+|carro p1 p2 p3 p4|carro := Carrito new.p1 := Producto withData: 'Jabon' precio: 10.p2 := Producto withData: 'torta' precio: 20.p3 := Producto withData: 'fideos' precio: 20.p4 := Producto withData: 'esponja' precio: 20.carro addProduct: p1.carro addProduct: p2.carro addProduct: p3.carro addProduct: p4.carro checkout. 

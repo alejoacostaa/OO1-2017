@@ -1,0 +1,1 @@
+|col|col := Set new.col add: 3.col add: 3.col add: 3.col add: 3.col add: 1.col add: 34.col add: 312.col occurrencesOf: 3.3
